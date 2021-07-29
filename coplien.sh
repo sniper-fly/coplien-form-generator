@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # root path of this repository.
-COPLIEN_LIB_PATH='/home/rnakai/work/chpp'
+COPLIEN_LIB_PATH=
 
 CMD_NAME='cpform'
 
@@ -28,6 +28,7 @@ There are:
 Examples:
     ${CMD_NAME} g hoge fuga            (then create hoge.cpp hoge.hpp fuga.cpp fuga.hpp)
     ${CMD_NAME} d hoge fuga            (then delete hoge.cpp hoge.hpp fuga.cpp fuga.hpp)
-"
+
+More info: https://github.com/sniper-fly/coplien-form-generator"
 
 fi
