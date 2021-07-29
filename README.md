@@ -23,6 +23,11 @@ delete Apple.cpp
 delete Apple.hpp
 ```
 
+## Edit template
+You can easily edit template files as you want.  
+`__CLASS_NAME__` is the keyword to be replaced with the Class name.  
+`__HEADER__`, with the appropriate bystander macro.
+
 ## Installation
 ### reqirements
 bash, GNU sed  
