@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # You have to edit these below before installing. #
-INSTALL_PATH="${HOME}/.local/bin"
+INSTALL_PATH=""
 CMD_NAME="cpform"
 
 ln -s "`pwd`/coplien.sh" "${INSTALL_PATH}/${CMD_NAME}"
