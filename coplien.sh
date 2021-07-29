@@ -1,7 +1,9 @@
 #!/bin/bash
 
-COPLIEN_LIB_PATH='/home/rnakai/work/chpp' ## Do not delete the empty line above
-CMD_NAME='coplien'
+# root path of this repository.
+COPLIEN_LIB_PATH='/home/rnakai/work/chpp'
+
+CMD_NAME='cpform'
 
 RESET="\e[0m"
 GREEN="\e[32m"
