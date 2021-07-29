@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COPLIEN_LIB_PATH='/home/rnakai/work/chpp'
+COPLIEN_LIB_PATH='/home/rnakai/work/chpp' ## Do not delete the empty line above
 CMD_NAME='coplien'
 
 RESET="\e[0m"

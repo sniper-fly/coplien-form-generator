@@ -1,19 +1,19 @@
-#include "${_class_file_name_}.hpp"
+#include "__CLASS_NAME__.hpp"
 
-${_class_file_name_}::${_class_file_name_}()
+__CLASS_NAME__::__CLASS_NAME__()
 {
 }
 
-${_class_file_name_}::~${_class_file_name_}()
+__CLASS_NAME__::~__CLASS_NAME__()
 {
 }
 
-${_class_file_name_}::${_class_file_name_}(${_class_file_name_} const &other)
+__CLASS_NAME__::__CLASS_NAME__(__CLASS_NAME__ const &other)
 {
     *this = other;
 }
 
-${_class_file_name_} &${_class_file_name_}::operator=(${_class_file_name_} const &other)
+__CLASS_NAME__ &__CLASS_NAME__::operator=(__CLASS_NAME__ const &other)
 {
     if (this != &other)
     {

@@ -1,15 +1,15 @@
-#ifndef TEMPLATE_HPP
-#define TEMPLATE_HPP
+#ifndef __HEADER__
+# define __HEADER__
 
-class ${_class_file_name_}
+class __CLASS_NAME__
 {
 private:
 
 public:
-    ${_class_file_name_}();
-    virtual ~${_class_file_name_}();
-    ${_class_file_name_}(${_class_file_name_} const &other);
-    ${_class_file_name_} &operator=(${_class_file_name_} const &other);
+    __CLASS_NAME__();
+    virtual ~__CLASS_NAME__();
+    __CLASS_NAME__(__CLASS_NAME__ const &other);
+    __CLASS_NAME__ &operator=(__CLASS_NAME__ const &other);
 };
 
-#endif /* TEMPLATE_HPP */
+#endif
