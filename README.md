@@ -6,7 +6,7 @@ You can automatically generate Coplien's form C++ class header and definition.
 ## syntax
 cpform [option] [class name...]
 
-### There are two options like:
+### There are two options:
 - `g`     (generate both [class name].cpp, [class name].hpp)
 - `d`     (delete both [class name].cpp, [class name].hpp)
 
